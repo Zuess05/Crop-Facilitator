@@ -4,9 +4,9 @@ import numpy as np
 import bz2
 
 def load_model():
-    file = bz2.BZ2File('saved_steps.pkl.bz2', 'rb')
-    mod = pickle.load(file)
-    return mod
+   file = bz2.BZ2File('saved_steps.pkl.bz2', 'rb').read()
+   return pickle.loads(file)
+
         
 deploy = load_model()
 regressor = deploy['model']
