@@ -1,5 +1,5 @@
 
-# Crop Recommendation System
+# Farm Management System
 
 This is a web-app which includes a number of functions including a Crop-price prediction system,
 a Crop-Recommendation system and a Fertilizer-Recommendation system.
